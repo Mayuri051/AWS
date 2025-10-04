@@ -3,11 +3,11 @@ phases:
   install:
     runtime-version:
       nodejs: 18
-  Build:
+  build:
     commands:
       -echo Build started on `date`
       -echo "No build steps needed for static HTML"
-  post-Build:
+  post_build:
     commands:
       -echo Build completed on `date`
 artifacts:
